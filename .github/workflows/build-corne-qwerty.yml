@@ -1,4 +1,4 @@
-name: 'Build Example crkbd'
+name: 'Build Corne QWERTY'
 on:
   - workflow_dispatch
 jobs:
@@ -6,6 +6,6 @@ jobs:
     uses: ./.github/workflows/main.yml
     with:
       keyboard: '["crkbd"]'
-      clipboard: '["MAC"]'
-      nav: '["VI"]'
-      alphas: '["QWERTY"]'
+      clipboard: '["mac"]'
+      nav: '["vi"]'
+      alphas: '["qwerty"]'
